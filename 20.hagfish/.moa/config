@@ -1,0 +1,3 @@
+jobid: hagfish
+source: '{{fqdir}}'
+title: run hagfish for all sets

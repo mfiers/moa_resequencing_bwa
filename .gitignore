@@ -25,3 +25,9 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+last_run_id
+local_bash_history
+log.d
+log.latest
+log
+status

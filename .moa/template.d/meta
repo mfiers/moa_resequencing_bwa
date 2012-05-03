@@ -1,0 +1,6 @@
+class: core
+installed: '2012-04-17T13:38:54.106643'
+name: archroot
+priority: 100
+provider: core
+provider_type: core
