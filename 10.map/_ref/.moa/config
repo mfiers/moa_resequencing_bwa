@@ -1,0 +1,5 @@
+db: '{{dbbase}}'
+extra_params: '{{bowtie_params}}'
+fq_forward_input: '{{fqdir}}/{{_}}/*_1.fq'
+jobid: full
+title: run bowtie for {{_}}

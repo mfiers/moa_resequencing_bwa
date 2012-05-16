@@ -1,3 +1,4 @@
+bowtie_params: -k 1 --strata --best -p 4 --chunkmbs 256
 dbbase: /home/mf/project/hagfish.demo/10.bowtie/bowtiedb/db
 extra_params: -k 1 --strata --best -p 9  --chunkmbs 256
 fqdir: /home/mf/project/hagfish.demo/05.fq/

@@ -1,0 +1,58 @@
+### run
+echo Start bowtie pe
+
+outbase=`basename {{ output }} .bam`
+
+bowtie -S {{ extra_params }} --{{orientation}}                                  \
+       -I {{ min_insertsize }} -X {{ max_insertsize }}                          \
+       {% if lots_of_data %} --un ${outbase}.unmapped.fq {% endif %}		\
+       {{ db }} -1 {{ fq_forward_input }} -2 {{ fq_reverse_input }}		\
+       | samtools view {% if not lots_of_data %}-f 2{% endif %} -bS -		\
+       > ${outbase}.unsorted
+
+samtools sort ${outbase}.unsorted ${outbase}
+samtools index ${outbase}.bam
+samtools flagstat ${outbase}.bam  > ${outbase}.report
+{% if not lots_of_data %}
+rm ${outbase}.unsorted
+{% endif %}
+
+### fix
+
+for x in *.unsorted.bam
+do
+    mv $x `basename $x .bam`
+done
+
+### clean
+
+rm *.bam
+rm *.bam.bai
+rm *.report
+
+### unittest
+
+which bowtie || (echo 'Bowtie is not installed' >&2; false)
+
+mkdir 10.bowtiedb
+cd 10.bowtiedb 
+moa new bowtiedb -t 'demo index referece using bowtie'
+moa set input="${MOABASE}/share/test/test.fasta"
+moa set ebwt_outfile_base=testDB
+moa run
+ls
+ 
+cd ../
+
+mkdir 20.bowtie_pe
+cd 20.bowtie_pe
+pwd >&2
+moa new bowtie_pe -t 'demo bowtie aligning paired ends'
+
+moa set ebwt_base=../10.bowtiedb/testDB
+moa set fq_forward_input=${MOABASE}/share/test/reads_1.fq
+moa set fq_reverse_input=${MOABASE}/share/test/reads_2.fq
+moa run
+ls
+
+[[ -f read.bam ]] && ( [[ ! -s read.bam ]] && echo "read.bam file exists and has size > 0" || echo "read.bam file is empty", false) || (echo "read.bam file does not exist")
