@@ -1,0 +1,4 @@
+fasta: '{{reffasta}}'
+input: ../../10.map/{{_}}/*.bam
+jobid: full
+title: Prepare hagfish for {{_}}

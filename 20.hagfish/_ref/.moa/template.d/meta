@@ -1,0 +1,6 @@
+class: core
+installed: '2012-05-17T04:26:05.661477'
+name: hagfish
+priority: 100
+provider: core
+provider_type: core

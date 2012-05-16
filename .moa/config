@@ -1,9 +1,9 @@
-bowtie_params: -k 1 --strata --best -p 4 --chunkmbs 256
+bowtie_params: -k 1 -p 4 --chunkmbs 256
 dbbase: /home/mf/project/hagfish.demo/10.bowtie/bowtiedb/db
 extra_params: -k 1 --strata --best -p 9  --chunkmbs 256
 fqdir: /home/mf/project/hagfish.demo/05.fq/
 jobid: run a bowtie analysis on a set of input files
-moa_archive_parameters: dbbase fqdir
+moa_archive_parameters: dbbase fqdir reffasta
 moa_dbbase_error: this parameter should contain an ABSOLUTE base path to the database
 moa_dbbase_help: Basename of the database
 moa_dbbase_test: ' [[ -f ${val}.1.ebwt ]] && [[ "${val}" == /* ]]'
@@ -12,4 +12,9 @@ moa_fqdir_error: Need to specify an absolute path to a folder with subfolders co
 moa_fqdir_help: Directory with one subdirectories per library, containing matepairs
 moa_fqdir_test: '[[ -d "${val}" ]] && [[ "${val}" == /* ]] && [[ `ls ${val}/*/*_1.fq`
   ]]'
+moa_reffasta_error: this parameter should contain an ABSOLUTE base path to a FASTA
+  sequence
+moa_reffasta_help: Fasta sequence of the reference in dbbase
+moa_reffasta_test: '[[ -f ${val} ]] && [[ "${val}" == /* ]]'
+reffasta: /home/mf/project/hagfish.demo/00.reference/test.fasta
 title: Run a resequencing experiment
