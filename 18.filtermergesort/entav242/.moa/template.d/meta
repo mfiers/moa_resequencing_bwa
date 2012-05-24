@@ -1,0 +1,6 @@
+class: core
+installed: '2012-05-25T07:12:56.484118'
+name: reduce
+priority: 100
+provider: core
+provider_type: core
