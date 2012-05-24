@@ -68,3 +68,6 @@ moa gitadd
 moa gitadd
 moa gitadd
 export PYTHONPATH=/home/cflmwf/moa/lib/python/:$PYTHONPATH
+moa gitadd
+locate smmap
+ls -l
