@@ -1,6 +1,0 @@
-class: core
-installed: '2012-04-17T14:05:38.423920'
-name: sync
-priority: 100
-provider: core
-provider_type: core

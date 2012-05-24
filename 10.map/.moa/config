@@ -1,3 +1,0 @@
-jobid: map
-source: '{{fqdir}}'
-title: run bowtie for all libraries
