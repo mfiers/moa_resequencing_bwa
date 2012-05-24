@@ -4,6 +4,12 @@ Command line:
     
       /home/cflmwf/moa/bin/moa gitadd
 -----
+**On Friday, 25 May 2012 06:58 - cflmwf changes**
+
+Command line:
+    
+      /home/cflmwf/moa/bin/moa gitadd
+-----
 **On Friday, 25 May 2012 06:54 - cflmwf changes**
 
 Command line:
