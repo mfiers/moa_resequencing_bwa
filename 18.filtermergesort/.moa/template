@@ -1,0 +1,35 @@
+author: Mark Fiers
+backend: ruff
+commands:
+  run:
+    help: Sync!
+    mode: simple
+creation_date: Thu, 30 Jun 2011 21:26:19
+description: Create this directory in sync with another directory
+moa_id: sync
+modification_date: Thu, 30 Jun 2011 21:25:53
+name: sync
+parameters:
+  ignore:
+    default: ''
+    help: ignore these names (space separated list)
+    optional: true
+  original:
+    help: The local directory to use as a source. If the target (based on what is
+      in the source) does not exists, this directory is copied. If the target exists
+      - only the configuration is copied, and all directory contents are left alone.
+      If this parameter is omitted, the directory with the most recently changed moa
+      configuration.
+    optional: true
+    type: string
+  recursive:
+    default: false
+    help: copy the jobs/config recursively
+    optional: true
+    type: boolean
+  source:
+    help: The directory to keep in sync with. If not specified, this template just
+      keeps local directory synced
+    optional: true
+    type: string
+title: Sync directories

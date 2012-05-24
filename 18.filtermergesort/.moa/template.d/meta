@@ -1,0 +1,6 @@
+class: core
+installed: '2012-05-25T07:12:17.726413'
+name: sync
+priority: 100
+provider: core
+provider_type: core
