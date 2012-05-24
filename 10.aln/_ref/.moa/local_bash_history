@@ -58,3 +58,8 @@ moa show -v
 moa -v
 moa show -v
 moa show -v
+moa gitadd
+ls -l
+git status
+git log
+git status
