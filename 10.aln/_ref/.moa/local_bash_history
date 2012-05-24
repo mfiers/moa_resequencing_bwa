@@ -1,0 +1,60 @@
+cd entav242/
+moa show -a
+moa files
+moa run --ol
+cd entav242/
+moa run --ol
+ls -l
+bjobs
+bjobs -u all
+bjobs -u all
+ls -l
+ls -l
+ls -l
+ls -l
+bjbos
+jobs
+bjobs
+bjobs
+ls -l
+ls -l
+cat ENTAV_242_AB075UABXX_TGACCA_L008_R.report
+moa files
+ls -l
+ls -l /data/genomic/plant/Vitis/vinifera/wgs/filtered//entav242/ENTAV_242_AB075UABXX_TGACCA_L008_R1.fq
+ls -l /data/genomic/plant/Vitis/vinifera/wgs/filtered//entav242/ENTAV_242_AB075UABXX_TGACCA_L008_R1.fq -l
+ls -l
+bjobs -l
+bjobs
+bjobs
+ls -l
+rm *
+ls -l
+moa out
+moa err
+moa
+moa new bwa_index -f
+moa show
+moa new bwa_aln
+moa new bwa_aln -f
+cd entav242/
+moa
+moa unset extra_params
+moa set input
+ls -l
+moa show
+moa unset fq_forward_input fq_reverse_input extra_params bowtie_params recursive
+cd entav242/
+ls
+moa show -a
+moa files
+ls -l
+cd ../../10.aln/_ref/
+ls
+moa show
+moa show
+moa show
+moa show -v
+moa -v
+moa show -v
+moa show -v

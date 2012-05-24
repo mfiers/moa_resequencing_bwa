@@ -1,0 +1,7 @@
+log
+log.d/
+log.latest
+last_run_id
+status
+*.fof
+*~

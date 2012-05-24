@@ -1,0 +1,5 @@
+db: '{{dbbase}}'
+input: '{{fqdir}}/{{_}}/*.fq'
+jobid: full
+thread_num: 4
+title: run bwa aln for {{_}}

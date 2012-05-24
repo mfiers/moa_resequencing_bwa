@@ -1,0 +1,6 @@
+class: core
+installed: '2012-05-24T08:15:22.375501'
+name: bwa_aln
+priority: 100
+provider: core
+provider_type: core
