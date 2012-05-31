@@ -1,62 +1,80 @@
-**On Friday, 25 May 2012 07:06 - cflmwf changes**
+**On Thursday, 24 May 2012 16:04 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa run --ol
 -----
-**On Friday, 25 May 2012 07:06 - cflmwf changes**
+**On Thursday, 24 May 2012 16:04 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa files
 -----
-**On Friday, 25 May 2012 07:05 - cflmwf changes**
+**On Thursday, 24 May 2012 08:24 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa run --ol
 -----
-**On Friday, 25 May 2012 07:04 - cflmwf changes**
+**On Thursday, 24 May 2012 08:24 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa
 -----
-**On Friday, 25 May 2012 07:03 - cflmwf changes**
+**On Thursday, 24 May 2012 08:23 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa set thread_num
 -----
-**On Friday, 25 May 2012 06:58 - cflmwf changes**
+**On Thursday, 24 May 2012 08:23 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa show -a
 -----
-**On Friday, 25 May 2012 06:58 - cflmwf changes**
+**On Thursday, 24 May 2012 08:20 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa out
 -----
-**On Friday, 25 May 2012 06:54 - cflmwf changes**
+**On Thursday, 24 May 2012 08:20 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa err
 -----
-**On Friday, 25 May 2012 06:54 - cflmwf changes**
+**On Thursday, 24 May 2012 08:18 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa gitadd
+      /home/cflmwf/moa/bin/moa out
 -----
-**On Friday, 25 May 2012 06:51 - cflmwf changes**
+**On Thursday, 24 May 2012 08:18 - cflmwf changes**
 
 Command line:
     
-      /home/cflmwf/moa/bin/moa show -v
+      /home/cflmwf/moa/bin/moa err
+-----
+**On Thursday, 24 May 2012 08:18 - cflmwf changes**
+
+Command line:
+    
+      /home/cflmwf/moa/bin/moa run --ol
+-----
+**On Thursday, 24 May 2012 08:17 - cflmwf changes**
+
+Command line:
+    
+      /home/cflmwf/moa/bin/moa set title
+-----
+**On Thursday, 24 May 2012 08:17 - cflmwf changes**
+
+Command line:
+    
+      /home/cflmwf/moa/bin/moa run --ol
 -----
 **On Thursday, 24 May 2012 08:17 - cflmwf changes**
 
