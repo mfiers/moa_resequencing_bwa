@@ -1,0 +1,9 @@
+db: '{{dbbase}}'
+fq_forward_input: '{{fqdir}}/{{_}}/*1.fq'
+fq_reverse_input: '*/*2.fq'
+input: '{{fqdir}}/{{_}}/*.fq'
+jobid: full
+sai_forward_input: ../../10.aln/{{_}}/*1.sai
+sai_reverse_input: '*/*2.sai'
+thread_num: 4
+title: run bwa sampe to find read pairs for {{_}}

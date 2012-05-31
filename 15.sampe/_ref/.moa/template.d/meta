@@ -1,0 +1,6 @@
+class: core
+installed: '2012-05-31T15:10:57.239057'
+name: bwa_sampe
+priority: 100
+provider: core
+provider_type: core
