@@ -1,0 +1,6 @@
+db: '{{dbbase}}'
+input: '{{fqdir}}/{{_}}/*.fq'
+jobid: full
+source: '{{fqdir}}'
+thread_num: 4
+title: run sampe for all samples
