@@ -3,4 +3,4 @@ input: '{{fqdir}}/{{_}}/*.fq'
 jobid: full
 source: '{{fqdir}}'
 thread_num: 4
-title: run sampe for all samples
+title: Run `bwa sampe` for all samples in  ../10.aln
