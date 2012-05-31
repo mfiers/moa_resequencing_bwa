@@ -1,6 +1,6 @@
 dbbase: /workspace/genome_analysis/plant/Vitis/vinifera/00.bwadb/db
 fqdir: /data/genomic/plant/Vitis/vinifera/wgs/filtered/
-jobid: run a bowtie analysis on a set of input files
+jobid: BWA
 moa_archive_parameters: dbbase fqdir reffasta
 moa_dbbase_error: this parameter should contain an ABSOLUTE base path to the database
 moa_dbbase_help: Basename of the database
