@@ -1,4 +1,5 @@
 *.py[co]
+CHANGELOG.md
 
 # Packages
 *.egg
