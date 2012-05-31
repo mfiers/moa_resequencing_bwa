@@ -1,0 +1,4 @@
+jobid: map
+recursive: true
+source: '{{fqdir}}'
+title: run bowtie for all libraries
