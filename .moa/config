@@ -1,5 +1,4 @@
-dbbase: /workspace/genome_analysis/plant/Vitis/vinifera/00.bwadb/db
-fqdir: /data/genomic/plant/Vitis/vinifera/wgs/filtered/
+dbbase: /data/moa/liberibacter/50.mapmapmap/05.bwadb/db
 jobid: BWA
 moa_archive_parameters: dbbase fqdir reffasta
 moa_dbbase_error: this parameter should contain an ABSOLUTE base path to the database
@@ -14,5 +13,5 @@ moa_reffasta_error: this parameter should contain an ABSOLUTE base path to a FAS
   sequence
 moa_reffasta_help: Fasta sequence of the reference in dbbase
 moa_reffasta_test: '[[ -f ${val} ]] && [[ "${val}" == /* ]]'
-reffasta: /data/genomic/plant/Vitis/vinifera/reference/genome.12x/reference.fasta
+reffasta: /data/moa/liberibacter/50.mapmapmap/00.ref/Clso.fasta
 title: Run a resequencing experiment

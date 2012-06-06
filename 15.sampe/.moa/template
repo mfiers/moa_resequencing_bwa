@@ -28,7 +28,8 @@ parameters:
     optional: true
     type: boolean
   source:
-    help: The directory to keep in sync with
-    optional: false
+    help: The directory to keep in sync with. If not specified, this template just
+      keeps local directory synced
+    optional: true
     type: string
 title: Sync directories
